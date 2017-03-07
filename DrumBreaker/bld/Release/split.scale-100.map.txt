@@ -1,0 +1,10 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\split.scale-100.pri"			"resources.pri"
+"F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\PackageLayout\images\storelogo.scale-100.png"			"images\storelogo.scale-100.png"
+"F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\PackageLayout\images\splashscreen.scale-100.png"			"images\splashscreen.scale-100.png"
+"F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\PackageLayout\images\smalllogo.scale-100.png"			"images\smalllogo.scale-100.png"
+"F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\PackageLayout\images\logo.scale-100.png"			"images\logo.scale-100.png"

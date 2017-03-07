@@ -1,0 +1,15 @@
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bin\release\AppxManifest.xml
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bin\release\DrumBreaker.build.appxrecipe
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\priconfig.xml
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\priconfig.xml.intermediate
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\layout.resfiles
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\layout.resfiles.intermediate
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\resources.resfiles
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\resources.resfiles.intermediate
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\pri.resfiles
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\pri.resfiles.intermediate
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\qualifiers.txt
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\qualifiers.txt.intermediate
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\MultipleQualifiersPerDimensionFound.txt
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bld\Release\ProjectArchitectures.txt
+F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bin\release\ReverseMap\resources.pri

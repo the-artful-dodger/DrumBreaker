@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>cc5a0859-3f81-44c8-a66a-caef652cf62e</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <PropertyGroup Label="Configuration">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <RequiredPlatformVersion>8.1</RequiredPlatformVersion>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\release</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="audio\0.wav" />
+    <Content Include="audio\1.wav" />
+    <Content Include="audio\2.wav" />
+    <Content Include="audio\3.wav" />
+    <Content Include="audio\4.wav" />
+    <Content Include="audio\5.wav" />
+    <Content Include="audio\6.wav" />
+    <Content Include="audio\7.wav" />
+    <Content Include="audio\8.wav" />
+    <Content Include="audio\9.wav" />
+    <Content Include="audio\a.wav" />
+    <Content Include="audio\b.wav" />
+    <Content Include="audio\c.wav" />
+    <Content Include="audio\d.wav" />
+    <Content Include="audio\e.wav" />
+    <Content Include="audio\f.wav" />
+    <Content Include="audio\g.wav" />
+    <Content Include="audio\h.wav" />
+    <Content Include="audio\i.wav" />
+    <Content Include="audio\j.wav" />
+    <Content Include="audio\k.wav" />
+    <Content Include="audio\l.wav" />
+    <Content Include="audio\m.wav" />
+    <Content Include="audio\n.wav" />
+    <Content Include="audio\welcome.wav" />
+    <Content Include="default.html" />
+    <Content Include="images\background.png" />
+    <Content Include="images\clear.png" />
+    <Content Include="images\clearClicked.png" />
+    <Content Include="images\drum.png" />
+    <Content Include="images\drumClicked.png" />
+    <Content Include="images\drum_final.png" />
+    <Content Include="images\guitar.png" />
+    <Content Include="images\guitarClicked.png" />
+    <Content Include="images\logo.scale-100.png" />
+    <Content Include="images\piano.png" />
+    <Content Include="images\pianoClicked.png" />
+    <Content Include="images\play.png" />
+    <Content Include="images\playClicked.png" />
+    <Content Include="images\smalllogo.scale-100.png" />
+    <Content Include="images\splashscreen.scale-100.png" />
+    <Content Include="images\Square150x150Logo.scale-240.png" />
+    <Content Include="images\Square44x44Logo.scale-240.png" />
+    <Content Include="images\storelogo.scale-100.png" />
+    <Content Include="images\Wide310x150Logo.scale-240.png" />
+    <Content Include="images\Square71x71Logo.scale-240.png" />
+    <Content Include="images\SplashScreen.scale-240.png" />
+    <Content Include="images\StoreLogo.scale-240.png" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="css\ui-themed.css" />
+    <Content Include="css\ui-themed.theme-dark.css" />
+    <Content Include="css\ui-themed.theme-light.css" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="StoreManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.Phone.WinJS.2.1, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

@@ -1,0 +1,2 @@
+MainPackage=F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bin\release\DrumBreaker_1.1.0.2_Bundle\DrumBreaker_1.1.0.2_AnyCPU.appx
+ResourcePack=F:\Education\Computer\Windows Phone\DrumBreaker\DrumBreaker\bin\release\DrumBreaker_1.1.0.2_Bundle\DrumBreaker_1.1.0.2_scale-100.appx

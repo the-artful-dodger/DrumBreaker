@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DrumBreaker</title>
+
+    <!-- WinJS references -->
+    <!-- At runtime, ui-themed.css resolves to ui-themed.light.css or ui-themed.dark.css 
+    based on the user’s theme setting. This is part of the MRT resource loading functionality. -->
+    <link href="/css/ui-themed.css" rel="stylesheet" />
+    <script src="//Microsoft.Phone.WinJS.2.1/js/base.js"></script>
+    <script src="//Microsoft.Phone.WinJS.2.1/js/ui.js"></script>
+
+    <!-- DrumBreaker references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body class="phone" >
+    <div id = "header">
+    <a onclick="runCallStack(0); invertColor('play');" style="margin-right:3%"><img id="play" style="width:4em; height:4em;" src="images/play.png"></a>
+    <a onclick="clearCallStack(); invertColor('clear');"><img id="clear" style="width:4em; height:4em;" src="images/clear.png"></a>
+  </div>
+  <div>
+    <table id="wrapperTable" align="center">      
+      <tr>
+        <td><a onclick="playSound('0');invertColor('g0');"><img id="guitar0" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('1');invertColor('g1');"><img id="guitar1" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('2');invertColor('g2');"><img id="guitar2" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('3');invertColor('g3');"><img id="guitar3" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('4');invertColor('g4');"><img id="guitar4" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('5');invertColor('g5');"><img id="guitar5" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('6');invertColor('g6');"><img id="guitar6" src="images/guitar.png"></a></td>
+        <td><a onclick="playSound('7');invertColor('g7');"><img id="guitar7" src="images/guitar.png"></a></td>
+      </tr>       
+      
+      <tr>
+        <td><a onclick="playSound('8');invertColor('d0');"><img id="drum0" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('9');invertColor('d1');"><img id="drum1" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('a');invertColor('d2');"><img id="drum2" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('b');invertColor('d3');"><img id="drum3" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('c');invertColor('d4');"><img id="drum4" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('d');invertColor('d5');"><img id="drum5" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('e');invertColor('d6');"><img id="drum6" src="images/drum.png"></a></td>
+        <td><a onclick="playSound('f');invertColor('d7');"><img id="drum7" src="images/drum.png"></a></td>
+      </tr>       
+      <tr>
+        <td><a onclick="playSound('g');invertColor('p0');"><img id="piano0" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('h');invertColor('p1');"><img id="piano1" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('i');invertColor('p2');"><img id="piano2" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('j');invertColor('p3');"><img id="piano3" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('k');invertColor('p4');"><img id="piano4" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('l');invertColor('p5');"><img id="piano5" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('m');invertColor('p6');"><img id="piano6" src="images/piano.png"></a></td>
+        <td><a onclick="playSound('n');invertColor('p7');"><img id="piano7" src="images/piano.png"></a></td>
+      </tr>   
+    </table>
+      </div>
+    <center><p style="font-family:'Segoe WP'">DrumBreaker 1.0</p></center>
+  <audio id="audio0" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio1" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio2" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio3" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio4" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio5" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio6" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+  <audio id="audio7" style="width:25%" controls hidden="hidden">Canvas not supported</audio>
+
+<script type="text/javascript">
+  var callStack = "";   
+  var interval = {};
+  var lastPress = -1;
+  var currentTrack = 0;
+
+  var streamSound = function (key) {
+      var soundDiv = document.getElementById('audio'+(currentTrack++)%8);
+      //soundDiv.innerHTML = "<embed src=\"audio\\" + key + ".wav\" hidden=\"true\" autostart=\"true\" />";
+      soundDiv.src = "audio\\" + key + ".wav"; 
+      soundDiv.play();     
+  }
+  var resetColor = function (id) {
+      if (id == "clear" || id == "play") {
+          var imageElement = document.getElementById(id);
+          imageElement.src = "images/" + id + ".png";
+      } else {
+          var imageElement = document.getElementById(id);
+          imageElement.src = "images/" + id.substring(0, id.length - 1) + ".png";
+      }
+  }
+  var invertColor = function (key) {
+      var id = "";
+      if (key == 'play' || key == 'clear') {
+          id = key;
+          var imageElement = document.getElementById(id);
+          imageElement.src = "images/" + id + "Clicked.png";
+          setTimeout(function () { resetColor(id) }, 300);
+      } else {
+          switch (key.charAt(0)) {
+              case 'g': id += "guitar"; break;
+              case 'd': id += "drum"; break;
+              case 'p': id += "piano"; break;
+              default: console.log("Unknown Case: invertColor"); break;
+          }
+          id += key.charAt(1);
+          console.log(id);
+          var imageElement = document.getElementById(id);
+          imageElement.src = "images/" + id.substring(0, id.length - 1) + "Clicked.png";
+          setTimeout(function () { resetColor(id) }, 300);
+      }
+    
+  }  
+
+  var playSound = function(key){
+    callStack+=key;
+    if(lastPress<0) lastPress = Date.now();
+    var difference = Date.now()-lastPress;
+    //console.log(difference);
+    interval[callStack.length-1] = difference;
+    //console.log(callStack);
+    streamSound(key);
+    lastPress = Date.now();
+  }   
+  var clearCallStack = function(){
+    callStack = "";
+    console.log("callStack cleared");
+    lastPress = -1;
+  }
+  var runCallStack = function(i){   
+      console.log(interval[i]);
+      if(i>callStack.length-1)
+        return;         
+      streamSound(callStack.charAt(i));
+      setTimeout(function(){runCallStack(i+1)}, interval[i+1]);       
+  }   
+</script>
+</body>
+</html>

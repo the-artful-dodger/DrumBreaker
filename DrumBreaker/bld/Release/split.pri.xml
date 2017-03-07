@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="28063DeepanjanM.DrumBreaker" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+			<Theme>LIGHT, DARK</Theme>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="default.html" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/default.html">
+				<Candidate type="Path">
+					<Value>default.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StoreManifest.xml" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/StoreManifest.xml">
+				<Candidate type="Path">
+					<Value>StoreManifest.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="audio">
+				<NamedResource name="0.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/0.wav">
+					<Candidate type="Path">
+						<Value>audio\0.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="1.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/1.wav">
+					<Candidate type="Path">
+						<Value>audio\1.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="2.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/2.wav">
+					<Candidate type="Path">
+						<Value>audio\2.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="3.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/3.wav">
+					<Candidate type="Path">
+						<Value>audio\3.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="4.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/4.wav">
+					<Candidate type="Path">
+						<Value>audio\4.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="5.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/5.wav">
+					<Candidate type="Path">
+						<Value>audio\5.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="6.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/6.wav">
+					<Candidate type="Path">
+						<Value>audio\6.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="7.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/7.wav">
+					<Candidate type="Path">
+						<Value>audio\7.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="8.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/8.wav">
+					<Candidate type="Path">
+						<Value>audio\8.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="9.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/9.wav">
+					<Candidate type="Path">
+						<Value>audio\9.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="a.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/a.wav">
+					<Candidate type="Path">
+						<Value>audio\a.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="b.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/b.wav">
+					<Candidate type="Path">
+						<Value>audio\b.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="c.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/c.wav">
+					<Candidate type="Path">
+						<Value>audio\c.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="d.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/d.wav">
+					<Candidate type="Path">
+						<Value>audio\d.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="e.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/e.wav">
+					<Candidate type="Path">
+						<Value>audio\e.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="f.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/f.wav">
+					<Candidate type="Path">
+						<Value>audio\f.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="g.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/g.wav">
+					<Candidate type="Path">
+						<Value>audio\g.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="h.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/h.wav">
+					<Candidate type="Path">
+						<Value>audio\h.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="i.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/i.wav">
+					<Candidate type="Path">
+						<Value>audio\i.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="j.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/j.wav">
+					<Candidate type="Path">
+						<Value>audio\j.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="k.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/k.wav">
+					<Candidate type="Path">
+						<Value>audio\k.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="l.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/l.wav">
+					<Candidate type="Path">
+						<Value>audio\l.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/m.wav">
+					<Candidate type="Path">
+						<Value>audio\m.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="n.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/n.wav">
+					<Candidate type="Path">
+						<Value>audio\n.wav</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="welcome.wav" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/audio/welcome.wav">
+					<Candidate type="Path">
+						<Value>audio\welcome.wav</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="css">
+				<NamedResource name="default.css" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/css/default.css">
+					<Candidate type="Path">
+						<Value>css\default.css</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ui-themed.css" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/css/ui-themed.css">
+					<Candidate qualifiers="Theme-LIGHT" isDefault="true" type="Path">
+						<Value>css\ui-themed.theme-light.css</Value>
+					</Candidate>
+					<Candidate qualifiers="Theme-DARK" isDefault="true" type="Path">
+						<Value>css\ui-themed.theme-dark.css</Value>
+					</Candidate>
+					<Candidate type="Path">
+						<Value>css\ui-themed.css</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="background.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/background.png">
+					<Candidate type="Path">
+						<Value>images\background.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clear.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/clear.png">
+					<Candidate type="Path">
+						<Value>images\clear.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clearClicked.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/clearClicked.png">
+					<Candidate type="Path">
+						<Value>images\clearClicked.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drum.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/drum.png">
+					<Candidate type="Path">
+						<Value>images\drum.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drumClicked.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/drumClicked.png">
+					<Candidate type="Path">
+						<Value>images\drumClicked.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drum_final.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/drum_final.png">
+					<Candidate type="Path">
+						<Value>images\drum_final.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="guitar.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/guitar.png">
+					<Candidate type="Path">
+						<Value>images\guitar.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="guitarClicked.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/guitarClicked.png">
+					<Candidate type="Path">
+						<Value>images\guitarClicked.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/logo.png"/>
+				<NamedResource name="piano.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/piano.png">
+					<Candidate type="Path">
+						<Value>images\piano.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pianoClicked.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/pianoClicked.png">
+					<Candidate type="Path">
+						<Value>images\pianoClicked.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="play.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/play.png">
+					<Candidate type="Path">
+						<Value>images\play.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="playClicked.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/playClicked.png">
+					<Candidate type="Path">
+						<Value>images\playClicked.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="smalllogo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/smalllogo.png"/>
+				<NamedResource name="splashscreen.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/splashscreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="storelogo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/storelogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="js">
+				<NamedResource name="default.js" uri="ms-resource://28063DeepanjanM.DrumBreaker/Files/js/default.js">
+					<Candidate type="Path">
+						<Value>js\default.js</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
